@@ -8,6 +8,10 @@ p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
   color: var(--global-text-color);
 }
 
+#big-title {
+  font-size: 3.5rem;
+}
+
 a, table.table a {
   color: var(--global-theme-color);
   &:hover {
@@ -304,17 +308,22 @@ footer.sticky-bottom {
 .projects {
   a {
     text-decoration: none;
-
     &:hover {
       .card-title {
         color: var(--global-theme-color);
       }
     }
   }
+  .card-body {
+    color:red;
+    border-style: solid;
+    display: inline-block;
+  }
 
   .card {
     img {
-      width: 100%;
+      width: 50%;
+      display: inline-block;
     }
     .card-title {
       color: $black-color;
@@ -332,7 +341,7 @@ footer.sticky-bottom {
   }
 
   .grid-item {
-    width: 250px;
+    width: auto;
     margin-bottom: 10px;
   }
 
