@@ -10,7 +10,7 @@ email: aethelind@gmail.com
 description: 
 footer_text: 
 
-icon: 👀 #🔥 # the emoji used as the favicon
+icon: 🦐 #👀 #🔥 # the emoji used as the favicon
 url:  # the base hostname & protocol for your site
 baseurl: /al-folio # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
@@ -60,6 +60,7 @@ work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
+resume_url: assets/pdf/example_pdf.pdf
 
 contact_note: 
 

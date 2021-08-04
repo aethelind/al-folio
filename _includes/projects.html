@@ -1,17 +1,35 @@
 <div class="grid-item">
-  {% if project.redirect %}
-  <a href="{{ project.redirect }}" target="_blank">
-  {% else %}
-  <a href="{{ project.url | relative_url }}">
-  {% endif %}
-    <div class="card hoverable">
-      
-      <div class="card-body">
-        {% if project.img %}
-      <img src="{{ project.img | relative_url }}" alt="project thumbnail">
-      {% endif %}
-        <h2 class="card-title text-lowercase">{{ project.title }}</h2>
-        <p class="card-text">{{ project.description }}</p>
+
+  <div class="card hoverable">
+
+    <div class="card-body">
+      <!-- {% if project.img %} -->
+      {% if project.redirect %}
+      <a href="{{ project.redirect }}" target="_blank">
+        {% else %}
+        <a href="{{ project.url | relative_url }}">
+          {% endif %}
+          <img src="{{ project.img | relative_url }}" alt="project thumbnail">
+          <!-- {% endif %} -->
+          <h3 class="card-title">{{ project.title }}</h3>
+
+          {% if project.stack %}
+          <p class="card-text project-stack"> <strong>Stack:</strong> {{ project.stack }}</p>
+          {% endif %}
+          <p class="card-text">{{ project.description }}</p>
+        </a>
+        {% if project.demo %}
+        <br><p class="card-text project-demo"><a href="{{ project.demo }}">Check out the demo here!</a> </p>
+        {% endif %}
+
+        {% if project.repo %}
+        <p class="card-text project-repo"><a href="{{ project.repo }}">Check out the source code here!</a> </p>
+        {% endif %}
+
+        {% if project.presentation %}
+        <p class="card-text project-repo"><a href="{{ project.presentation }}">Check out my presentation here!</a> </p>
+        {% endif %}
+
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}
           <div class="github-icon">
@@ -29,5 +47,5 @@
         </div>
       </div>
     </div>
-  </a>
-</div>
+
+  </div>
