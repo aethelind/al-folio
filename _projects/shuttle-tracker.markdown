@@ -1,11 +1,11 @@
 ---
 layout: page
-title: 📍uOttawa Shuttle Tracker
+title: 📍 Shuttle Tracker
 description: >
     Created proof-of-concept for a cheap, reliable, scalable tracking system for the campus shuttle. The shuttle's location and projected arrival times are delivered to commuters.
 stack: Ionic, Angular, Typescript, Firebase.
 demo: https://www.youtube.com/watch?v=s8fVvSTxZ20
-img: /assets/img/shuttle-tracker.png
+img: /assets/img/shuttle-tracker.png #/assets/img/shuttle.gif #
 importance: 1
 category: work
 # github: https://github.com/alshedivat/al-folio/

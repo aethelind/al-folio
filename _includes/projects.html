@@ -14,21 +14,26 @@
           <h3 class="card-title">{{ project.title }}</h3>
 
           {% if project.stack %}
-          <p class="card-text project-stack"> <strong>Stack:</strong> {{ project.stack }}</p>
+          <p class="card-text project-stack"><i class="fas fa-code"></i> <i>{{ project.stack }}</i></p>
           {% endif %}
           <p class="card-text">{{ project.description }}</p>
         </a>
+        <p class="card-text project-info">
+
         {% if project.demo %}
-        <br><p class="card-text project-demo"><a href="{{ project.demo }}">Check out the demo here!</a> </p>
+        <a href="{{ project.demo }}" target="_blank"><i class="fas fa-external-link-alt"></i>&ensp;demo</a><br>
         {% endif %}
-
+        {% if project.game-jam %}
+        <a href="{{ project.game-jam }}" target="_blank"><i class="fas fa-gamepad"></i>&ensp;game jam</a> <br>
+        {% endif %}
         {% if project.repo %}
-        <p class="card-text project-repo"><a href="{{ project.repo }}">Check out the source code here!</a> </p>
+        <a href="{{ project.repo }}" target="_blank"><i class="fas fa-code-branch"></i>&ensp;source code </a><br>
+        {% endif %}
+        {% if project.presentation %}
+        <a href="{{ project.presentation | relative_url }}" target="_blank"><i class="fas fa-chart-pie"></i>&ensp;presentation</a><br>
         {% endif %}
 
-        {% if project.presentation %}
-        <p class="card-text project-repo"><a href="{{ project.presentation }}">Check out my presentation here!</a> </p>
-        {% endif %}
+        </p>
 
         <div class="row ml-1 mr-1 p-0">
           {% if project.github %}

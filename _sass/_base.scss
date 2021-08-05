@@ -326,11 +326,19 @@ footer.sticky-bottom {
     background: var(--global-project-bg-color);
     display: inline-block;
     padding: 0rem;
+
+    ul li {
+      color: red;
+      margin-left: 100px;
+    }
     .card-text {
       color: var(--global-text-color);
     }
+    .project-info {
+      margin-top: 1rem;
+    }
     .project-stack {
-      //color: var(--global-theme-color);
+      color: var(--global-text-color-light);
     }
   }
 
