@@ -345,7 +345,8 @@ footer.sticky-bottom {
   .card {
 
     img {
-      height: 250px;
+      min-height: 250px;
+      max-height: 300px;
       width: 50%;
       object-fit: cover;
       display: inline-block;
@@ -370,7 +371,7 @@ footer.sticky-bottom {
 
   .grid-item {
     width: auto;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
   }
 
   h2.category {
