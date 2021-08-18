@@ -14,14 +14,12 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hey, I'm Aethelind! 👋 I'm a semicolon enthusiast who does free range; organic; object-oriented programming. 🤪 I'm super vibrant and passionate, and I want to tackle hard problems and make pretentious LinkedIn posts. 🤩 I'm the eagerest beaver you've ever seen. 😤 I'd be such a good hire! 
+👋 Hey, I'm Aethelind! <!-- (ETH—lind) -->
+
+I'm a semicolon enthusiast with a Computer Science degree from uOttawa. I'm curious about all facets of backend development, and keen to learn more and expand my tech stack. I love when I can use my skills and passion to make a real impact.
+
+<!-- Beyond tech, most weekends you can find me diving into genealogy ([are we cousins?](https://www.ancestry.ca/account/profile/08031f88-0006-0000-0000-000000000000)). -->
 
 
-
-<!-- for skill in soft_skills: aethelind.skill = True -->
-<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+[Checkout my resume here](/al-folio/assets/pdf/example_pdf.pdf)! <!-- , or find me on other apps below! -->
 

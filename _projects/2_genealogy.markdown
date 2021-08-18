@@ -8,7 +8,7 @@ description: >
 stack: Ruby on Rails, Python, SQLite3.
 demo: google.ca
 repo: google.ca
-img: /assets/img/rails.png
+img: /assets/img/folk-finder.png
 importance: 2
 category: work
 ---

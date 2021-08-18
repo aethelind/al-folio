@@ -32,6 +32,9 @@
         {% if project.presentation %}
         <a href="{{ project.presentation | relative_url }}" target="_blank"><i class="fas fa-chart-pie"></i>&ensp;presentation</a><br>
         {% endif %}
+        {% if project.hack %}
+        <a href="{{ project.hack }}" target="_blank"><i class="fas fa-rocket"></i>&ensp;hackathon</a><br>
+        {% endif %}
 
         </p>
 
