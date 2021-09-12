@@ -1,23 +1,28 @@
-# al-folio 
+# al-folio
+
 Forked from: https://github.com/alshedivat/al-folio
 
 ## Getting started
+
 #### Local setup
+
 You need Ruby and Bundler installed to run this locally.
 
 You can get Ruby by following [instructions for installation here](https://www.ruby-lang.org/en/downloads/).
 
-If you are missing Bundler, you can run: 
+If you are missing Bundler, you can run:
+
 ```bash
 gem install bundler
 ```
 
 To run locally, first clone the repo
+
 ```bash
 $ git clone git@github.com:aethelind/al-folio.git
 $ cd al-folio
 $ bundle install
-$ bundle exec jekyll serve --live-reload
+$ bundle exec jekyll serve --livereload
 ```
 
 #### Deployment
@@ -32,6 +37,7 @@ Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0
 - The `master` branch should be used for the source code of your webpage and `gh-pages` branch (will be created on the first deployment) will be used for deployment.
 
 **For personal and organization webpages:**
+
 - Rename your repository to `<your-github-username>.github.io` or `<your-github-orgname>.github.io`.
 - Click on **Actions** tab and **Enable GitHub Actions**; you no need to worry about creating any workflows as everything has already been set for you.
 - Make sure the `url` and `baseurl` fields in `_config.yml` are empty.
@@ -42,9 +48,11 @@ Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0
 <details><summary><strong>Manual deployment to GitHub Pages:</strong></summary>
 
 If you need to manually re-deploy your website to GitHub pages, run the deploy script from the root directory of your repository:
+
 ```bash
 $ ./bin/deploy
 ```
+
 uses the `master` branch for the source code and deploys the webpage to `gh-pages`.
 
 </details>
@@ -52,9 +60,11 @@ uses the `master` branch for the source code and deploys the webpage to `gh-page
 <details><summary><strong>Deployment to another hosting server (non GitHub Pages):</strong></summary>
 
 If you decide to not use GitHub Pages and host your page elsewhere, simply run:
+
 ```bash
 $ bundle exec jekyll build
 ```
+
 which will (re-)generate the static webpage in the `_site/` folder.
 Then simply copy the contents of the `_site/` foder to your hosting server.
 
@@ -72,6 +82,7 @@ For a user site this could well be something like `$HOME/<user>.github.io`.
 Firstly, from the deployment repo dir, checkout the git branch hosting your publishing source.
 
 Then from the website sources dir (commonly your al-folio fork's clone):
+
 ```bash
 $ bundle exec jekyll build --destination $HOME/repo/publishing-source
 ```
