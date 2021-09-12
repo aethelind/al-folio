@@ -21,5 +21,5 @@ I'm a semicolon enthusiast with a Computer Science degree from uOttawa. I'm curi
 <!-- Beyond tech, most weekends you can find me diving into genealogy ([are we cousins?](https://www.ancestry.ca/account/profile/08031f88-0006-0000-0000-000000000000)). -->
 
 
-[Checkout my resume here](/al-folio/assets/pdf/example_pdf.pdf)! <!-- , or find me on other apps below! -->
+[Checkout my resume here](/assets/pdf/aethelind-racic_resume.pdf)! <!-- , or find me on other apps below! -->
 
