@@ -11,7 +11,7 @@ stack: Go // HTML, CSS, JavaScript // Python, P5.
 demo: 
 repo: 
 img: /assets/img/vis-sinusoid.gif
-importance: 8
+importance: 80
 category: work
 ---
 

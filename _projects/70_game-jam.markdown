@@ -10,7 +10,7 @@ demo:
 game-jam: https://itch.io/jam/cartridge-jam-3
 repo: https://github.com/aethelind/Space-Lock-Game
 img: /assets/img/game-demo.gif #/assets/img/game-screen.png
-importance: 7
+importance: 70
 category: work
 ---
 

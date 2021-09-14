@@ -6,7 +6,7 @@ description: >
 stack: Ionic, Angular, Typescript, Firebase.
 demo: https://www.youtube.com/watch?v=s8fVvSTxZ20
 img: /assets/img/shuttle-tracker.png #/assets/img/shuttle.gif #
-importance: 1
+importance: 10
 category: work
 # github: https://github.com/alshedivat/al-folio/
 ---
