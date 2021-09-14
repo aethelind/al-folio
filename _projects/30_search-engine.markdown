@@ -8,7 +8,7 @@ stack: Python, NLTK, PySimpleGUI.
 demo: https://www.youtube.com/watch?v=WBr91tTkfn4
 repo: https://github.com/aethelind/minerva
 img: /assets/img/search1.png #/assets/img/search.gif
-importance: 3
+importance: 30
 category: work
 ---
 ## Introduction
