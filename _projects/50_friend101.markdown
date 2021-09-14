@@ -8,7 +8,7 @@ stack: Ionic, Angular, Typescript, Firebase.
 demo: https://aethelind.github.io/friend101-landingpage/
 repo: https://github.com/aethelind/zeal
 img: /assets/img/zeal.png
-importance: 5
+importance: 50
 category: work
 ---
 

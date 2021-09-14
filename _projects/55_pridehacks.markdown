@@ -6,7 +6,7 @@ description: >
 stack: Miro, Whimsical, GSuite.
 hack: https://www.queertech.org/pridehacks # https://www.odlan.ca/
 img: /assets/img/pride-hacks.png #/assets/img/shuttle.gif #
-importance: 5
+importance: 55
 category: work
 # github: https://github.com/alshedivat/al-folio/
 ---
