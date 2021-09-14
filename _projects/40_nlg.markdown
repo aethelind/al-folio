@@ -9,7 +9,7 @@ stack: Python, NLTK, OpenNMT, GloVe.
 demo: 
 repo: 
 img: /assets/img/nlg-code.png #/assets/img/nlg.png
-importance: 4
+importance: 40
 category: work
 ---
 

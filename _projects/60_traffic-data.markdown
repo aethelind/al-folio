@@ -10,7 +10,7 @@ demo:
 repo: 
 presentation: /assets/pdf/ottawa-traffic-data-mart.pdf
 img: /assets/img/traffic-data.png
-importance: 6
+importance: 60
 category: work
 ---
 
