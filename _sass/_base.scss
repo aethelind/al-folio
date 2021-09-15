@@ -3,16 +3,46 @@
  ******************************************************************************/
 
 // Typography
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:300,700");
 
-p, h1, h2, h3, h4, h5, h6, em, div, span, strong {
+body {
+  font-family: "Inconsolata", Courier, monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav {
+  font-family: "Roboto", sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+div,
+span,
+strong {
   color: var(--global-text-color);
+}
+
+strong {
+  font-weight: bold;
 }
 
 #big-title {
   font-size: 3.5rem;
 }
 
-a, table.table a {
+a,
+table.table a {
   color: var(--global-theme-color);
   &:hover {
     color: var(--global-theme-color);
@@ -48,23 +78,24 @@ blockquote {
 }
 
 // Citation
-.citation, .citation-number {
+.citation,
+.citation-number {
   color: var(--global-theme-color);
 }
 
 // Youtube Videos
 .video-container {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
 }
 .yt-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 // Profile
@@ -97,12 +128,13 @@ blockquote {
   }
 }
 
-
 @media (min-width: 576px) {
   .profile {
     width: 40%;
     .address {
-      p { display: block; }
+      p {
+        display: block;
+      }
     }
   }
 }
@@ -110,6 +142,8 @@ blockquote {
 .post-description {
   margin-bottom: 2rem;
   font-size: 0.875rem;
+  color: var(--global-text-color-light);
+  font-style: italic;
   a {
     color: inherit;
     &:hover {
@@ -118,7 +152,6 @@ blockquote {
     }
   }
 }
-
 
 // Navbar customization
 
@@ -143,13 +176,13 @@ blockquote {
       color: var(--global-hover-color);
     }
   }
-  .navbar-nav .nav-item.active>.nav-link {
-      background-color: inherit;
-      font-weight: bolder;
-      color: var(--global-theme-color);
-      &:hover {
-        color: var(--global-hover-color);
-      }
+  .navbar-nav .nav-item.active > .nav-link {
+    background-color: inherit;
+    font-weight: bolder;
+    color: var(--global-theme-color);
+    &:hover {
+      color: var(--global-hover-color);
+    }
   }
   .navbar-brand.social {
     padding-bottom: 0;
@@ -204,7 +237,6 @@ blockquote {
   }
 }
 
-
 // News
 
 .news table td {
@@ -239,7 +271,6 @@ blockquote {
   }
 }
 
-
 // Footer
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
@@ -264,7 +295,6 @@ footer.sticky-bottom {
   padding-bottom: 40px;
   font-size: 0.9rem;
 }
-
 
 // Blog
 
@@ -321,7 +351,6 @@ footer.sticky-bottom {
   }
 }
 
-
 // Distill
 
 .distill {
@@ -330,7 +359,6 @@ footer.sticky-bottom {
     text-decoration: none;
   }
 }
-
 
 // Projects
 
@@ -365,7 +393,6 @@ footer.sticky-bottom {
   }
 
   .card {
-
     img {
       min-height: 250px;
       max-height: 300px;
@@ -381,7 +408,6 @@ footer.sticky-bottom {
   }
 
   .card-item {
-
     width: auto;
     margin-bottom: 10px;
 
@@ -405,7 +431,6 @@ footer.sticky-bottom {
     text-align: right;
   }
 }
-
 
 // Publications
 
@@ -466,8 +491,8 @@ footer.sticky-bottom {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
           &:hover {
-              border-bottom-style: solid;
-              text-decoration: none;
+            border-bottom-style: solid;
+            text-decoration: none;
           }
         }
         > em {
@@ -538,7 +563,8 @@ pre {
   background-color: var(--global-code-bg-color);
   border-radius: 6px;
   padding: 6px 12px;
-  pre, code {
+  pre,
+  code {
     background-color: transparent;
     border-radius: 0;
     padding: 0;
@@ -551,7 +577,6 @@ code {
   border-radius: 3px;
   padding: 3px 3px;
 }
-
 
 // Transitioning Themes
 html.transition,
