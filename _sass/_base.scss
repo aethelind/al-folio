@@ -3,11 +3,16 @@
  ******************************************************************************/
 
 // Typography
-@import url("https://fonts.googleapis.com/css?family=Inconsolata:300,700");
+// @import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
+// @import url("https://fonts.googleapis.com/css?family=Roboto Slab");
 
-body {
-  font-family: "Inconsolata", Courier, monospace;
-}
+// body {
+//   // font-family: "Spectral", sans-serif;
+//   font-family: "Roboto Slab", serif;
+//   // font-family: "Roboto Slab";
+//   // font-family: "Merriweather", serif;
+//   //font-family: "Inconsolata", Courier, monospace;
+// }
 
 h1,
 h2,
@@ -16,6 +21,7 @@ h4,
 h5,
 h6,
 nav {
+  // font-family: "Inconsolata", Courier, monospace;
   font-family: "Roboto", sans-serif;
 }
 
@@ -118,7 +124,7 @@ blockquote {
 .clearfix {
   p {
     text-align: left;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 }
 
