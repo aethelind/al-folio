@@ -3,7 +3,7 @@ layout: page
 title: 🌈‍ PrideHacks 2021 #🦄🌈🏳️‍🌈
 description: >
   Devised workflow, UI mockups, and proof-of-concept application for ODLAN's device gifting ecosystem, allowing for the collection, refurbishment, and distribution of devices such as smart phones and tablets.
-stack: Miro, Figma, GSuite.
+stack: Miro, Figma, GSuite, React.js.
 hack: https://www.queertech.org/pridehacks # https://www.odlan.ca/
 img: /assets/img/pride-hacks.png #/assets/img/shuttle.gif #
 importance: 55
