@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-description: 
+description:
 
 profile:
   align: left
   image: prof_pic.jpg
-  address: 
+  address:
 
-news: false  # includes a list of news items
+news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 👋 Hey, I'm Aethelind! <!-- (ETH—lind) -->
@@ -20,6 +20,4 @@ I'm a semicolon enthusiast with a Computer Science degree from uOttawa. I'm curi
 
 <!-- Beyond tech, most weekends you can find me diving into genealogy ([are we cousins?](https://www.ancestry.ca/account/profile/08031f88-0006-0000-0000-000000000000)). -->
 
-
-[Checkout my resume here](/assets/pdf/aethelind-racic_resume.pdf)! <!-- , or find me on other apps below! -->
-
+[Checkout my resume here](/assets/pdf/aethelind-racic-resume.pdf)! <!-- , or find me on other apps below! -->
