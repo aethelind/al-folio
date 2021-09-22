@@ -12,4 +12,4 @@ importance: 20
 category: work
 ---
 
-<iframe style="border:none" width="800" height="450" src="https://whimsical.com/embed/TQXuAYRQrZyzNmTv38Hy9q"></iframe>
+<iframe style="border:none" width="100%" height="500" src="https://whimsical.com/embed/TQXuAYRQrZyzNmTv38Hy9q"></iframe>
