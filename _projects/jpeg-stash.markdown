@@ -13,7 +13,7 @@ category: work
 
 ### [ → ⚡️ Source Code Here! ⚡️ ← ](https://github.com/aethelind/jpeg-stash)
 
-![Tests](https://github.com/aethelind/jpeg-stash/actions/workflows/main.yml/badge.svg?branch=master) ![Heroku](https://heroku-badge.herokuapp.com/?app=jpeg-stash)
+![Tests](https://github.com/aethelind/jpeg-stash/actions/workflows/main.yml/badge.svg?branch=master) ![Heroku](https://pyheroku-badge.herokuapp.com/?app=jpeg-stash)
 
 JPEG Stash is an [image repository](https://docs.google.com/document/d/1eg3sJTOwtyFhDopKedRD6142CFkDfWp1QvRKXNTPIOc/edit?usp=sharing) where users can stash + share all their best jpegs!  
 Built with Ruby on Rails. Deployed on Heroku.
@@ -26,7 +26,6 @@ Built with Ruby on Rails. Deployed on Heroku.
     </div>
 </div>
 
-<!-- [<img width="1552" alt="feed" src="https://user-images.githubusercontent.com/42299845/133905809-d2a7347f-6240-41b5-a1a0-f395d1f24384.png">](https://jpeg-stash.herokuapp.com/) -->
 
 ## Demo
 
