@@ -11,7 +11,7 @@
   Aethelind  Racic
 
 
-  | blog
+  | 🗣 NLG from Structured Data
 
 </title>
 <meta name="description" content="A beautiful, simple, clean, and responsive Jekyll theme forked from alshedivat/al-folio">
@@ -36,7 +36,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦄</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/nlg/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -117,8 +117,6 @@
           
           
           
-          
-          
           <li class="nav-item ">
               <a class="nav-link" href="/projects/">
                 projects
@@ -148,20 +146,47 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">🗣 NLG from Structured Data</h1>
+    <p class="post-description">Used Neural Machine Translation (NMT) to map structured data to plain English verbalizations. The application of such a model is to make large databases of structured, machine readable data (such as DBPedia) more accessible.
+</p>
+  </header>
 
+  <article>
+    <h2 id="abstract">Abstract</h2>
+<p>Semantic knowledge graphs are an increasingly popular way to store structured data in a machine-readable format online. The information stored in these knowledge bases can be made more accessible with tools that can provide human-readable translations of subsets of this data. The WebNLG Challenge (2017) provides a novel dataset to train a model to generate text from structured data. The dataset consists of data derived from DBPedia, a semantic knowledge base, paired with human-written verbalizations of subsets of this data. This paper explores the use of a Natural Language Translation model trained using a long short-term memory recurrent neural network architecture to provide human-readable translations of the DBPedia data.</p>
 
-  <ul class="post-list">
-    
-  </ul>
+<h2 id="introduction">Introduction</h2>
+<p>Data-to-text generation is a subtask in Natural Language Generation (NLG) that focuses on the transformation of structured data to natural language. The input in a data-to-text task may come in various forms including databases of records, spreadsheets, and expert system knowledge bases (Puduppully et al., 2019). The WebNLG Challenge (2017) presents a task involving the summarization of structured data. A dataset is provided which consists of sets of structured data mapped to natural language text summaries. The structured data was extracted from DBPedia (an online, machine- readable knowledge base), and the text summaries of the extracted data were written by human volunteers. The WebNLG Challenge was organized by research labs from the Universit​é de Lorraine and the University of Edinburgh.</p>
 
-  
+<p>The generation system created for this task can be seen as a microplanner​. Microplanning is a complex choice problem involving several subtasks. These subtasks include ​referring expressionngeneration (generating contextually appropriate references to entities in the data), ​aggregation (merging words or sentences together), lexicalisation (choosing words), surface realisation (creating actual text in human language) and sentence segmentation (Gardent et al, 2017). In essence, microplanners flesh out the linguistic content of an event in data.</p>
 
+<p>The motivation behind this task is to increase the accessibility of large knowledge bases. The structured data is encoded as Resource Description Framework (RDF) triples, a widely used data structure in the semantic web. As its name indicates, a triple is a set of three entities that codifies a statement about semantic data in the form of a subject–predicate–object expression. A natural language generation system that can translate this data into structured text makes it more accessible to the general public because it fleshes out the linguistic context of the data. Additionally, a robust system could expand natural language texts that have missing information by elaborating on
+unmentioned facts which are present in the knowledge base.</p>
+
+<p><strong>Problem Statement.</strong>
+The goal of my research was to create a system which takes as an input semantic data and produces as an output a summary of this data in natural language. The following paper will explain the chosen approach to natural language translation and compare this approach to those from the WebNLG challenge.</p>
+
+<p><strong>Related literature.</strong>
+The WebNLG Challenge was initiated in 2017 due to the lack of existing research into data-to-text generation models for knowledge graphs and RDF triple data. Part of the reason for this was a lack of datasets with many verbalizations.</p>
+
+  </article>
 
 </div>
+
+<!-- Default Statcounter code for my website https://aethelind.com/ -->
+<script type="text/javascript">
+var sc_project=12616623; 
+var sc_invisible=1; 
+var sc_security="d2cec273"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js" async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12616623/0/d2cec273/1/" alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
 
     </div>
 

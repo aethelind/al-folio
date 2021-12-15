@@ -11,7 +11,7 @@
   Aethelind  Racic
 
 
-  | blog
+  | 🔍 Search Engine
 
 </title>
 <meta name="description" content="A beautiful, simple, clean, and responsive Jekyll theme forked from alshedivat/al-folio">
@@ -36,7 +36,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦄</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/search-engine/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -117,8 +117,6 @@
           
           
           
-          
-          
           <li class="nav-item ">
               <a class="nav-link" href="/projects/">
                 projects
@@ -148,20 +146,57 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">🔍 Search Engine</h1>
+    <p class="post-description">Developed a search engine system in a team for a university catalogue and a corpus of Reuters articles. Implemented various search algorithms from the ground up, including live query completion, index construction, and query expansion.
+</p>
+  </header>
 
+  <article>
+    <h2 id="introduction">Introduction</h2>
+<p>For CSI4107 (Information Retrieval), I developed a search engine and various retrieval modules. This project was completed in a team of two.</p>
 
-  <ul class="post-list">
-    
-  </ul>
+<p>The search engine was able to search over two distinct corpora: uOttawa courses catalogue, and Reuter’s articles. Different models could be used to store the corpora, either a Vector Space model, or a Boolean model. As the user enters their query, live suggestions are fed to them to help complete their query. After sending a query, related topics are suggested for expansion.</p>
 
-  
+<h2 id="demo">Demo</h2>
+<p>Below is a demonstration of the final application.</p>
 
+<div class="video-container"> 
+<iframe src="https://www.youtube.com/embed/WBr91tTkfn4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="yt-video"></iframe>
+
+ </div>
+
+<p><br /></p>
+
+<h2 id="modules">Modules</h2>
+
+<h3 id="query-completion-module">Query completion module</h3>
+<p>This module leverages the work done in the bigram language module in an effort to provide explicit query completion suggestions to the user. Using the bigram index, we only save the top 3 words, which we then present to the user in the UI. The word suggestions appear in a separate widget, and clicking on them will add that term to your query (as well as to the query textbox).</p>
+
+<h3 id="global-query-expansion-using-wordnet">Global query expansion using WordNet</h3>
+<p>This module attempts to perform query expansion using an external source, WordNet. Thankfully, Python’s natural language toolkit provides a simple API for interacting with WordNet, so it was quite trivial to wire it into our project. We chose to give the user the option of applying the expansion for most cases. The only time we don’t is when the number of synonyms is large (&gt; 10), since at that point we will sacrifice too much precision. We hypothesize that this provides the user’s with a good amount of insight into how their query is behaving while giving them the option to opt-out of this behaviour should they feel the need.
+We also ensured that the expansion works using both the boolean and VSM model. Indeed, the terms are expanded before ever being transformed into a search expression.</p>
+
+<h3 id="ui-improvements">UI Improvements</h3>
+<p>While this was not a module, per se, it was still a lot of effort, as we had to accommodate a number of new workflows and elements. In particular, we had to create widgets for query expansion, as well as confirmation dialogs informing users of implicit expansions as well. We also needed a mechanism for users to provide relevance feedback, both declaring something relevant and undeclaring it, should the need arise. Finally, we needed to add the topic filtering selection box and the requisite logic to limit search results for Reuters articles when used.</p>
+
+  </article>
 
 </div>
+
+<!-- Default Statcounter code for my website https://aethelind.com/ -->
+<script type="text/javascript">
+var sc_project=12616623; 
+var sc_invisible=1; 
+var sc_security="d2cec273"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js" async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12616623/0/d2cec273/1/" alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
 
     </div>
 
